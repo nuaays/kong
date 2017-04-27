@@ -1,3 +1,4 @@
+print(package.path)
 local lapis = require "lapis"
 local utils = require "kong.tools.utils"
 local tablex = require "pl.tablex"
