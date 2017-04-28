@@ -87,6 +87,8 @@
   [#2424](https://github.com/Mashape/kong/pull/2424)
 - CNAME records are now properly cached by the dns resolver.
   [#2303](https://github.com/Mashape/kong/pull/2303)
+- The `/certificates` route returns a proper response when no certificates
+  have been created. [#2463](https://github.com/Mashape/kong/pull/2463)
 - Plugins:
   - hmac: Better handling of invalid base64-encoded signatures. Previously Kong
     would return an HTTP 500 error. We now properly return HTTP 403 Forbidden.
